@@ -1106,12 +1106,13 @@ nav .nav__right span {
 
 /*-- contact_section start--*/
 .contact_section {
-  padding: 100px 0;
-  background: url(./img/ia_100000076.jpg);
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  z-index: 1;
+	padding: 100px 0;
+	background: url(./img/ia_100000076.jpg);
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	z-index: 1;
+	background-attachment: fixed;
 }
 
 .contact_section::before {
@@ -1271,6 +1272,15 @@ nav .nav__right span {
   background: transparent;
   text-transform: capitalize;
   color: #ffff;
+}
+.first {
+	width: 81%;
+}
+.second {
+	width: 61%;
+}
+.third {
+	width: 91%;
 }
 
 /*-- counter_section start--*/
@@ -1870,4 +1880,4 @@ footer .footer__bottom p a:hover {
   color: #05152f;
   background: #fff;
 }
-
+/*# sourceMappingURL=main__style.css.map */
